@@ -8,6 +8,8 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,ct.sendgrid.net
 
 # 客户端与第三方登录验证域名
 DOMAIN-SUFFIX,auth0.com
@@ -15,6 +17,17 @@ DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,stripe.com
+
+# OpenAI 官方网络建议中列出的其他客户端依赖
+DOMAIN,challenges.cloudflare.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,frontend-apps-multi-region.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,setup.workos.com
+DOMAIN,workos.imgix.net
+DOMAIN,rum.browser-intake-datadoghq.com
 
 # 语音、视频及实时流媒体传输
 DOMAIN-SUFFIX,sentry.io

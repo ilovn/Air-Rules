@@ -22,7 +22,7 @@ Surge 与 Loon 共用的分流规则集合，按客户端分别存放规则文�
 - [Surge 规则段](Surge/Rule-Section.conf)
 - [Loon 规则段](Loon/Rule-Section.conf)
 
-示例中的 `Proxy` 是占位策略名，导入前要替换成客户端中已配置的策略。Google 通用规则包含 `DOMAIN-KEYWORD,google`，匹配范围较广，应放在 Gemini、YouTube 等具体规则之后。
+示例中的 `Proxy` 是占位策略名，导入前要替换成客户端中已配置的策略。Google 通用规则包含 `DOMAIN-KEYWORD,google`，匹配范围较广，应放在 Gemini、YouTube 等具体规则之后。本次检查已从 Gemini 和 YouTube 列表中移除通用 Google 匹配，避免具体规则抢走全部 Google 流量。为减少会话中出口不一致导致的 403，建议 Gemini、YouTube、Google 使用同一个稳定代理策略。
 
 ## 同步维护
 

@@ -3,3 +3,8 @@ DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
 DOMAIN-KEYWORD,copilot
+
+# Microsoft Copilot / Microsoft 365 Copilot 网络端点
+DOMAIN-SUFFIX,cloud.microsoft
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,microsoftonline.com

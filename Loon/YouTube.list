@@ -7,6 +7,7 @@
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
 
 # 静态资源、图片与缩略图
 DOMAIN-SUFFIX,ytimg.com
@@ -15,5 +16,4 @@ DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,ggpht.com
 
 # 电视端及其他扩展接口
-DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,yt.be
