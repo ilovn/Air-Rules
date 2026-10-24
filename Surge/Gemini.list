@@ -1,0 +1,77 @@
+# --------------------------------------------------------
+# Google Gemini (Bard) 分流规则列表
+# 适用于网页版、手机 App 及 API 接口
+# --------------------------------------------------------
+
+# 核心服务域名
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+
+
+# 核心网页与 API 接口
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN,alkalicore-pa.googleapis.com
+
+# --------------------------------------------------------
+# Google Antigravity 智能体平台专属规则
+# --------------------------------------------------------
+DOMAIN-SUFFIX,antigravity.google
+
+
+# --------------------------------------------------------
+# Android Studio 内置 Gemini 专属分流规则
+# --------------------------------------------------------
+
+# Android Studio 核心 AI 服务与通道接口（必须走代理）
+DOMAIN,aida.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,securetoken.googleapis.com
+
+# Google 开发者及 IDE 认证、遥测数据
+DOMAIN-SUFFIX,developer.android.com
+DOMAIN-SUFFIX,firebaseextensions.com
+DOMAIN-SUFFIX,crashlytics.com
+
+
+# 补全：Gemini 的静态资源、字体及安全验证接口
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN,clients6.google.com
+DOMAIN,content-autofill.googleapis.com
+
+# 专属项目及模型接口
+DOMAIN-KEYWORD,ai.google
+DOMAIN-KEYWORD,algo.google
+DOMAIN-KEYWORD,bard.google
+DOMAIN-KEYWORD,deepmind.google
+DOMAIN-SUFFIX,deepmind.com
+
+
+# --------------------------------------------------------
+# Google 基础服务分流规则列表（不含 YouTube）
+# 适用于日常搜索、账号同步与办公轻流量
+# --------------------------------------------------------
+
+# 核心系统与 API 接口
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gvt1.com
+
+# 地区特定域名
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,google.co.kr
+DOMAIN-SUFFIX,google.co.uk
+
+# 办公、系统与浏览器相关
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,chromium.org
+
+# 广告、数据分析及关键字拦截/分流
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-KEYWORD,google

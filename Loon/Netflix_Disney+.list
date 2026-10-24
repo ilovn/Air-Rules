@@ -1,0 +1,12 @@
+# === Netflix.list ===
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,nflxso.net
+
+# === Disney.list ===
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,disneystreaming.com

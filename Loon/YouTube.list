@@ -1,0 +1,19 @@
+# --------------------------------------------------------
+# YouTube 专属分流规则列表
+# 适用于高带宽、大流量视频加速
+# --------------------------------------------------------
+
+# 视频流与核心域名
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,googlevideo.com
+
+# 静态资源、图片与缩略图
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,youtubeimaging.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,ggpht.com
+
+# 电视端及其他扩展接口
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,yt.be

@@ -1,0 +1,13 @@
+# --------------------------------------------------------
+# Claude & Anthropic 分流规则列表
+# 适用于网页端、App 客户端及 API 接口
+# --------------------------------------------------------
+
+# 核心主域名与接口
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# 数据统计与监控服务（客户端运行必需）
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsigapi.net

@@ -1,0 +1,23 @@
+# --------------------------------------------------------
+# ChatGPT & OpenAI 分流规则列表
+# 适用于网页端、各平台 App 客户端及 API 接口
+# --------------------------------------------------------
+
+# 官方核心主域名
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# 客户端与第三方登录验证域名
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,stripe.com
+
+# 语音、视频及实时流媒体传输
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-KEYWORD,openai-api
